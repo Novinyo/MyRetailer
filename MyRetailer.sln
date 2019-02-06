@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManager", "DataManager\DataManager.csproj", "{D9FD8226-750C-4E89-894B-7EE4D2CD88D7}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NRMData", "NRMData\NRMData.sqlproj", "{2A9C50D0-4F68-4C98-A50C-7DA42D4809FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRMWPFUI", "NRMWPFUI\NRMWPFUI.csproj", "{E71914DC-4D5E-40A6-ADBA-0FB4990516F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,16 @@ Global
 		{D9FD8226-750C-4E89-894B-7EE4D2CD88D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9FD8226-750C-4E89-894B-7EE4D2CD88D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9FD8226-750C-4E89-894B-7EE4D2CD88D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A9C50D0-4F68-4C98-A50C-7DA42D4809FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A9C50D0-4F68-4C98-A50C-7DA42D4809FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A9C50D0-4F68-4C98-A50C-7DA42D4809FD}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2A9C50D0-4F68-4C98-A50C-7DA42D4809FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A9C50D0-4F68-4C98-A50C-7DA42D4809FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A9C50D0-4F68-4C98-A50C-7DA42D4809FD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E71914DC-4D5E-40A6-ADBA-0FB4990516F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E71914DC-4D5E-40A6-ADBA-0FB4990516F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E71914DC-4D5E-40A6-ADBA-0FB4990516F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E71914DC-4D5E-40A6-ADBA-0FB4990516F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
